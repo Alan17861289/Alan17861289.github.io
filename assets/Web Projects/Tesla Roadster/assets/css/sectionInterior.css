@@ -1,0 +1,13 @@
+#Interior {
+}
+
+#Interior .figure {
+  max-width:70%;
+}
+
+#Interior .figure-caption {
+  color:#fff;
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+}
+

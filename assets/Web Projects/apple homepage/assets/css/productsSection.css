@@ -1,0 +1,66 @@
+.products {
+  padding-top:100px;
+  text-align:center;
+  /*background-color:white;*/
+}
+
+@media (min-width: 768px) {
+  .products h1 {
+    font-size:56px;
+    font-weight:bold;
+  }
+}
+
+.products h1 {
+  font-weight:bold;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size:2.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size:1em;
+  }
+}
+
+.products a {
+  margin-right:20px;
+  font-size:21px;
+}
+
+.products div {
+  margin-bottom:88px;
+}
+
+#iPad {
+  background-color:rgb(245,245,245);
+}
+
+#macBookPro {
+  background-color:rgb(19,18,24);
+  color:white;
+}
+
+a {
+  color:#4a9ffb;
+}
+
+#macBookPro img {
+  margin-top:-88px;
+}
+
+#howToShoot {
+  color:whte;
+}
+
+#iPhoneX {
+  background-color:#fafafa;
+}
+
+#iPad {
+}
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/sectionInterior.css">
+    <link rel="stylesheet" href="assets/css/sectionRoof.css">
+    <link rel="stylesheet" href="assets/css/sectionUnveil.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="color:rgb(0,0,0);background-color:rgb(0,0,0);">
+    <section class="d-flex flex-column justify-content-between" id="hero" style="/*width:100%;*//*height:100vh;*//*background-image:url(&quot;assets/img/hero-mobile.jpg&quot;);*/">
+        <div id="divHeroTop">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1" style="font-family:Montserrat, sans-serif;font-weight:600;">
+                        <ul class="nav navbar-nav mx-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link navigation" href="#" target="_blank">Model s</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link navigation" href="#">Model X</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link navigation" href="#">Model 3</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link navigation" href="#">Roadster</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link navigation" href="#">Energy</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link active navigation" href="#">Shop</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active navigation" href="#">Sign in</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="350" id="titleInHero" style="margin:2em 0 0 0;">Tesla</h1>
+            <h2 class="text-center" data-aos="fade-up" data-aos-duration="400" id="subtitleInHero">Roadster</h2>
+        </div>
+        <div class="d-flex" id="divHeroBottom">
+            <div class="container" id="heroContainer" style="margin:0 auto;width:700px;">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-8">
+                        <p data-aos="fade-up" data-aos-duration="450" id="mainParaHero" style="color:rgba(255,255,255,0.65);">The quickest car in the world, with record-setting acceleration, range and performance.<br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col align-items-center info" data-aos="fade-up" data-aos-duration="500">
+                        <p class="d-inline-flex heroInfoColumnTextTop"><i class="icon ion-speedometer" style="font-size:23px;"></i>&nbsp;1.9s</p>
+                        <p class="heroInfoColumnTextBottom" style="font-family:Montserrat, sans-serif;font-weight:300;">0-60mph</p>
+                    </div>
+                    <div class="col info" data-aos="fade-up" data-aos-duration="550">
+                        <p class="heroInfoColumnTextTop">+250mph</p>
+                        <p class="heroInfoColumnTextBottom">Top Speed</p>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-duration="600">
+                        <p class="heroInfoColumnTextTop">620mi</p>
+                        <p class="heroInfoColumnTextBottom">Mile Range</p>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="700"><button class="btn btn-primary btn-block" type="button" id="heroButton">RESERVE NOW</button></div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center"><i class="icon ion-ios-arrow-down" style="font-size:38px;"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="videoAndStats">
+        <nav class="navbar navbar-dark navbar-expand" id="nav2">
+            <div class="container"><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse d-flex justify-content-end"
+                    id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><button class="btn btn-primary" type="button" id="nav2btn">RESERVE NOW</button></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><button class="btn btn-primary btn-block" type="button" id="nav2btn">GET NESLETTER</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><video width="100%" height="315" autoplay="" muted="" loop="" data-aos="fade-up" data-aos-duration="600" id="video"><source src="https://www.tesla.com/ns_videos/roadster_videos/roadster-loop-imperial.mp4?20180329" type="video/mp4"></video>
+        <div
+            class="table-responsive" id="statsTable">
+            <table class="table">
+                <thead style="color:#fcfcfc;">
+                    <tr>
+                        <th colspan="2" id="headerInTable" style="color:#ffffff;">Base Specs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="statsLeft">Acceleration 0-60&nbsp;mph</td>
+                        <td class="statsRight">1.9 sec</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Acceleration 0-100&nbsp;mph</td>
+                        <td class="statsRight">4.2 sec</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Acceleration 1/4&nbsp;mile</td>
+                        <td class="statsRight">8.8 sec</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Top Speed</td>
+                        <td class="statsRight">Over 250 mph</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Wheel Torque</td>
+                        <td class="statsRight">10,000 Nm</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Mile Range</td>
+                        <td class="statsRight">620 miles</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Seating</td>
+                        <td class="statsRight">4</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Drive</td>
+                        <td class="statsRight">All-Wheel Drive</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Base Price</td>
+                        <td class="statsRight">$200,000</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Base Reservation</td>
+                        <td class="statsRight">$50,000</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Founders Series Price</td>
+                        <td class="statsRight">$250,000</td>
+                    </tr>
+                    <tr>
+                        <td class="statsLeft">Founders Series Reservation<br><div><p style="font-size: 12px;">(1,000 reservations available)</p></div>
+</td>
+                        <td class="statsRight">$250,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <section id="webProjects" style="height:100vh;">
+                <h1>WEB PROJECTS</h1>
+                <section class="simple-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(&quot;webProjects/螢幕快照 2018-09-16 下午4.32.34.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;"></div>
+                            <div class="swiper-slide" style="background-image:url(&quot;webProjects/螢幕快照 2018-09-16 下午4.35.31.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;"></div>
+                            <div class="swiper-slide" style="background-image:url(&quot;webProjects/螢幕快照 2018-09-16 下午4.38.18.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;"></div>
+                            <div class="swiper-slide" style="background-image:url(&quot;webProjects/螢幕快照 2018-09-16 下午4.39.23.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;"></div>
+                            <div class="swiper-slide" style="background-image:url(&quot;webProjects/螢幕快照 2018-09-16 下午4.31.42.png&quot;);background-position:center;background-size:contain;background-repeat:no-repeat;"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </section>
+            </section>
+    </section>
+    <section class="d-flex align-items-end" data-aos="fade-up" data-aos-duration="600" id="rating" style="width:100%;height:100vh;background-image:url(&quot;assets/img/back.jpg&quot;);background-position:center;background-repeat:no-repeat;background-size:cover;color:rgba(254,254,254,0.79);background-color:#000000;">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-sm-12 col-md-6" id="headingCol">
+                    <h1>Designed for Performance and Aero Efficiency</h1>
+                </div>
+                <div class="col">
+                    <p style="font-size:14px;font-weight:100;">As an all-electric supercar, Roadster maximizes the potential of aerodynamic engineering—with record-setting performance and efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="600" id="Interior" style="width:100%;height:100vh;background-color:#000000;">
+        <figure class="figure"><img class="img-fluid figure-img" src="assets/img/interior.jpg">
+            <figcaption class="figure-caption"><span style="font-size:21px;font-weight:bold;">Interior</span>&nbsp; &nbsp; &nbsp;The first supercar to set every performance record and still fit seating for four.<br></figcaption>
+        </figure>
+    </section>
+    <section class="d-flex align-items-end" data-aos="fade-up" data-aos-duration="600" id="roof" style="width:100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1>Grass Roof</h1>
+                    <p>A lightweight, removable Glass Roof stores in the trunk for an open-air, convertible driving experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="align-items-center" data-aos="fade-up" data-aos-duration="600" id="unveil"><iframe width="560" height="315" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/249563752"></iframe>
+        <p>Watch the Roadster Unveil · November 16, 2017</p>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/effects.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>

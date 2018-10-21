@@ -1,0 +1,14 @@
+#unveil {
+  text-align:center;
+  background-color:rgb(0,0,0);
+  width:100%;
+  height:100vh;
+  color:white;
+  padding-top:10rem;
+}
+
+#unveil iframe {
+  width:90%;
+  height:522px;
+}
+
