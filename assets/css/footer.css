@@ -26,19 +26,37 @@
   border:3px solid rgb(255,255,255);
   border-radius:30px;
   height:43px;
-  width:188px;
+  width:10em;
   /*margin:0px;*/
-  font-size:12px;
+  font-size:1em;
   color:rgb(0,161,233);
 }
+
 
 #heroButtonContact {
   background-color:rgba(0,98,204,0);
   border:3px solid white;
   border-radius:30px;
   height:43px;
-  width:188px;
+  width:10em;
   margin-right:2em;
-  font-size:12px;
+  font-size:1em;
 }
 
+@media (min-width: 580px) {
+   #heroButtonContact {
+      margin-right:0;
+   }
+}
+
+#footer #heroButton {
+  width:12em;
+  font-size:1em;
+}
+
+@media (max-width: 321px) {
+#footer #heroButton {
+  width:10em;
+  font-size:1em;
+}
+}

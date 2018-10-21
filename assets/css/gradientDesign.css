@@ -52,10 +52,17 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   padding-top:60px;
 }
 
-@media (min-width:768px) {
-  .portfolio-block {
-    padding-bottom:100px;
-    padding-top:100px;
+@media (max-width:768px) {
+  #websiteSection {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width:768px) {
+  #bookSection {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -66,4 +73,3 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 #bookSection #heroButton {
   margin-bottom:19px;
 }
-
