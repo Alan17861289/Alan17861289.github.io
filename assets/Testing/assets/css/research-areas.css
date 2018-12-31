@@ -132,7 +132,15 @@
   margin-top:3rem;
 }
 
-#research-areas .container {
-  /*border-top:1px solid #ffffff;*/
+@media (max-width: 767px) {
+  #research-areas #box02 {
+    margin-top:30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #research-areas #box03 {
+    margin-top:30px;
+  }
 }
 
