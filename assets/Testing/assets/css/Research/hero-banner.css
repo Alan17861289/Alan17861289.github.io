@@ -21,7 +21,7 @@
 @media (max-width: 768px) {
   .hero-banner h1 {
     font-family: 'Roboto';
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: white;
     font-size: 2rem;
   }
@@ -30,8 +30,8 @@
 @media (min-width: 768px) {
   .hero-banner h1 {
     font-family: 'Roboto';
-    font-weight: bold;
-    color: #f92d2d;
+    /*font-weight: bold;*/
+    color: #5a6bff;
     font-size: 4rem;
     /*background: rgba(255,0,0,0.85);*/
   }
