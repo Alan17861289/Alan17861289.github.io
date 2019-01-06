@@ -1,0 +1,41 @@
+#news body {
+  background-image: linear-gradient(to left bottom, #ff5b5b, #ff7d7b, #ff9c9a, #ffb9b8, #ffd6d6);
+}
+
+//font setting// {
+}
+
+#news .teaching .date {
+  font-family: roboto;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+  margin-bottom: 0px;
+}
+
+#news h2 {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  /*margin-bottom: 0.1rem;*/
+}
+
+#news h3 {
+  font-family: roboto;
+  font-size: 1.6875rem;
+  /*font-weight: 500;*/
+  font-style: normal;
+  /*margin-bottom: 0.1rem;*/
+}
+
+#news .image-info {
+  font-family: roboto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0,0,0,0.7);
+  line-height: 24px;
+}
+

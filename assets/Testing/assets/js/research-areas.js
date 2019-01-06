@@ -1,23 +1,12 @@
 //box animation when hover
 
-$("#box01").on("mouseenter", ()=>{
-    $("#box01 a").css("color", "white");
-}).on("mouseleave",()=>{
-    $("#box01 a").css("color", "black");
-})
-
-$("#box02").on("mouseenter", ()=>{
-    $("#box02 a").css("color", "white");
-}).on("mouseleave",()=>{
-    $("#box02 a").css("color", "black");
-})
-
-$("#box03").on("mouseenter", ()=>{
-    $("#box03 a").css("color", "white");
-}).on("mouseleave",()=>{
-    $("#box03 a").css("color", "black");
-})
-
+$(".item").each(function(e){
+        $(this).on("mouseenter", function(){
+            $("a", this).css("color", "white");
+        }).on("mouseleave",function(){
+            $("a", this).css("color", "black");
+    })
+})  
 
 
 //when scroll down to research area, the background-color changes
@@ -27,12 +16,14 @@ var $research = $('#research-areas');
 $research.waypoint(function(direction){
     if (direction == 'down') {
         console.log('hello');
-        $target.css('background-color', '#FF6E6E' );
+        // $target.css('background', 'linear-gradient(to left bottom, #ff5b5b, #ff7d7b, #ff9c9a, #ffb9b8, #ffd6d6)' );
+        $target.css('background-color', '#FF9494' )
         $('#research-areas h2').css('color', 'white')
     } else {
         console.log('leave');
         $target.css('background-color', '#F0EEEE' );
-        $('#research-areas h2').css('color', '#9E2435')
+        // $target.css('background-image', 'none' )
+        $('#research-areas h2').css('color', 'rgba(0,0,0,0.7)')
     }
 }, {offset: '23%'});
 

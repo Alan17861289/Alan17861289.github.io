@@ -3,29 +3,39 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Zhao's Lab mainpage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,700">
     <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/news/news-general.css">
+    <link rel="stylesheet" href="assets/css/news/Tabbed-Panel.css">
+    <link rel="stylesheet" href="assets/css/People/card%20general.css">
+    <link rel="stylesheet" href="assets/css/People/people-general.css">
+    <link rel="stylesheet" href="assets/css/People/principle-investigator.css">
     <link rel="stylesheet" href="assets/css/research-areas.css">
+    <link rel="stylesheet" href="assets/css/Research/hero-banner.css">
+    <link rel="stylesheet" href="assets/css/Research/research-article-general.css">
     <link rel="stylesheet" href="assets/css/simple-footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body id="main">
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container"><a class="navbar-brand" href="#">ZHAO's LABORATORY</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" target="_blank">Research</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="people.html" target="_blank">People</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Resources</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">News</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" target="_blank">People&nbsp;</a>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="news.html">News</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" target="_blank">Research&nbsp;</a>
                             <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Join us</a></li>
@@ -35,7 +45,7 @@
             </div>
         </nav>
     </div>
-    <div class="changing-color" data-background-color="red">
+    <div class="changing-color animated fadeInRight" style="animation-duration: 1.5s">
         <div class="container" id="hero-introduction">
             <div class="row">
                 <div class="col-md-6 col-lg-6 offset-lg-0" id="hero-column">
@@ -70,12 +80,12 @@
         </div>
     </div>
     <section id="research-areas" class="changing-color" data-background-color="#27ae60">
-        <div class="container">
+        <div class="container animated fadeInUp" style="animation-duration: 1.5s; animation-delay: 0.1s">
             <h2>Research Areas</h2>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-lg-4"><div id="box01" class="item item01">
+                <div class="col-md-4 col-lg-4 animated fadeInUp" style="animation-duration: 1.5s; animation-delay: 0.1s"><div id="box01" class="item item01">
     <a href="#">
     <div class="click">
       <div>
@@ -95,7 +105,7 @@
     
 </div>
   </div>
-                <div class="col-md-4"><div id="box02" class="item item02">
+                <div class="col-md-4 animated fadeInUp" style="animation-duration: 1.5s; animation-delay: 0.3s"><div id="box02" class="item item02">
     <a href="#">
     <div class="click">
       <div>
@@ -115,7 +125,7 @@
     
 </div>
   </div>
-                <div class="col-md-4"><div id="box03" class="item item03">
+                <div class="col-md-4 animated fadeInUp" style="animation-duration: 1.5s; animation-delay: 0.5s"><div id="box03" class="item item03">
     <a href="#">
     <div class="click">
       <div>
@@ -144,7 +154,7 @@
                 <div class="col-8 col-sm-6 col-md-6 col-xl-9"><h5>© 2018 ZHAO'S LABORATORY</h5>
 <p>THE HONG KONG POLYTECHNIQUE UNIVERSITY, DEPARTMENT OF APPLIED BIOLOGYAND CHEMICAL TECHNOLOGY</p>
 </div>
-                <div class="col-sm-6 col-md-6 col-xl-3 d-flex justify-content-end align-items-center"><img src="assets/img/Hong_Kong_Polytechnic_University.svg" width="60rem" height="60rem"><img src="assets/img/Hong_Kong_Polytechnic_University red.svg" style="width:60px;height:60px;"></div>
+                <div class="col-sm-6 col-md-6 col-xl-3 d-flex justify-content-end align-items-center"><img src="assets/img/Hong_Kong_Polytechnic_University%20red.svg" style="width:60px;height:60px;"></div>
             </div>
         </div>
     </div>
@@ -152,7 +162,11 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/research-areas.js"></script>
-    <script src="assets/js/Navigation bar.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/Navigation%20bar.js"></script>
+    <script src="assets/js/news.js"></script>
+    <script src="assets/js/people.js"></script>
 </body>
 
 </html>

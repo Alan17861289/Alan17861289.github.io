@@ -1,0 +1,85 @@
+#people .container {
+  /*min-width: 1149px;*/
+}
+
+@media (max-width: 767px) {
+  #people .card {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #people .card {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+#people .card-content {
+  border-radius: 0 0 2px 2px;
+  padding-top: 20px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 34px;
+}
+
+@media (max-width: 768px) {
+  #people .card-content {
+    border-radius: 0 0 2px 2px;
+    padding-top: 20px;
+    padding-right: 1px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+  }
+}
+
+#principle-investigator-background {
+  background-image: url("../../../assets/img/professor.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  #people .card-image {
+    background-image: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #people .card img {
+    display: none;
+    max-width: 86px;
+  }
+}
+
+#people .card-image img {
+  border-radius: 2px 0 0 2px;
+  max-width: 100%;
+  width: 100%;
+  border: 2px solid red;
+  margin: 0;
+  height: auto;
+}
+
+#people .crad-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
