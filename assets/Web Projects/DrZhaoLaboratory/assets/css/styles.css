@@ -1,0 +1,69 @@
+body {
+  font-size: 16px;
+  transition: background 1.2s;
+  /*padding-top: 100px;*/
+  background: #F0EEEE;
+}
+
+h2 {
+  font-family: roboto;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: roboto;
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.85);
+}
+
+h5 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  font-family: roboto;
+}
+
+p {
+  /*font-size: 1.2rem;*/
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 577px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.shadow {
+  box-shadow: 10px 8px 19px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 577px) {
+  .panel .nav-item a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 800px) {
+  .navbar-expand-md .navbar-toggler {
+    display: flex;
+    margin-left: 300px;
+  }
+}
+
+@media (max-width:800px) {
+  .navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: none;
+  }
+}
+

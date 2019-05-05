@@ -1,0 +1,15 @@
+#news .download {
+  font-size: 14px;
+  color: red;
+}
+
+#news .more-download {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #3A3A3A;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+

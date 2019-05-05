@@ -1,0 +1,14 @@
+<svg version="1.1" id="el_NuQm9P9q09q" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 394 330" style="enable-background:new 0 0 394.9 330;" xml:space="preserve"><style>@-webkit-keyframes el_rWpgqUYuaxi_-2SyZgTIX_Animation{
+0%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);}
+49.17%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(0.95, 0.92) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(0.95, 0.92) translate(126.45475769042969px, 87.11064147949219px);}
+100%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);}}
+@keyframes el_rWpgqUYuaxi_-2SyZgTIX_Animation{
+0%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);}
+49.17%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(0.95, 0.92) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(0.95, 0.92) translate(126.45475769042969px, 87.11064147949219px);}
+100%{-webkit-transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);transform: translate(-126.45475769042969px, -87.11064147949219px) scale(1, 1) translate(126.45475769042969px, 87.11064147949219px);}}
+#el_NuQm9P9q09q *{-webkit-animation-duration: 4s;animation-duration: 4s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0, 1, 1);}
+#el_rWpgqUYuaxi{fill: #EE6E7B;}
+#el_rWpgqUYuaxi_-2SyZgTIX{-webkit-animation-name: el_rWpgqUYuaxi_-2SyZgTIX_Animation;animation-name: el_rWpgqUYuaxi_-2SyZgTIX_Animation;}</style>
+
+<g id="el_rWpgqUYuaxi_-2SyZgTIX" data-animator-group="true" data-animator-type="2"><path d="M246.8,23.3c-18.9-211.1-395.7-94.8-372.2,141C-102,400.8,330.4,451.9,379.7,284&#10;&#9;C433,102.5,260.8,179.5,246.8,23.3z" id="el_rWpgqUYuaxi"/></g>
+</svg>

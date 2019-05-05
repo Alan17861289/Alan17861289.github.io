@@ -385,11 +385,13 @@ body {
 }
 
 .efIn {
+/*
   -webkit-animation:fx_in 0.65s 1 ease-in-out;
   -moz-animation:fx_in 0.65s 1 ease-in-out;
   -ms-animation:fx_in 0.65s 1 ease-in-out;
   -o-animation:fx_in 0.65s 1 ease-in-out;
   animation:fx_in 0.65s 1 ease-in-out;
+*/
 }
 
 .efOut {
@@ -458,8 +460,10 @@ body {
 
 @media (min-width: 980px) {
   .box {
+/*
     width:77%;
     max-height:700px;
+*/
   }
 }
 
@@ -484,8 +488,10 @@ body {
 
 @media (min-width: 768px) and (max-width: 979px) {
   .box {
+/*
     width:70%;
     max-height:550px;
+*/
   }
 }
 
@@ -512,8 +518,8 @@ body {
   .box {
     margin:auto;
     padding:4em 1em 1em 1em;
-    width:80%;
-    height:500px;
+    width:90%;
+/*    height:500px;*/
   }
 }
 

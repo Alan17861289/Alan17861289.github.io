@@ -1,0 +1,41 @@
+////////////////////////general////////////////////////////// {
+}
+
+@media (min-width: 992px) {
+  .contact-box {
+    max-width: 900px;
+  }
+}
+
+#join-us body {
+  background: rgb(255, 229, 229);
+}
+
+.contact-box .item {
+  border-radius: 0 0 13px 13px;
+}
+
+.contact-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.col-sm-8.col-md-8.col-xl-6.offset-xl-0.d-flex.d-lg-flex.align-items-center {
+}
+
+//////////////////////////map////////////////////////////// {
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+///////////////////////fonts///////////////////////////////// {
+}
+
+.contact-box p {
+  font-size: 15px;
+  font-weight: 400;
+}
+

@@ -1,0 +1,69 @@
+.hero-banner .row {
+  position: relative;
+}
+
+.hero-banner {
+  background-image: url("../../../assets/img/cell-animation3.svg"),url("../../../assets/img/banner1.jpg");
+  height: 20rem;
+  background-position: left, center;
+  background-size: 700px, cover;
+  background-repeat: no-repeat, no-repeat;
+  padding-top: 75px;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    background-image: url("../../../assets/img/cell-animation3.svg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 577px) {
+  .hero-banner h1 {
+    font-family: 'Roboto';
+    /*font-weight: bold;*/
+    color: white;
+    font-size: 2rem;
+    /*background-color: rgba(116,185,249,0.69);*/
+    border-radius: 13px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 577px) {
+  .hero-banner h1 {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 4rem;
+  }
+}
+
+///////////////////////////cell////////////////////// {
+}
+
+.banner-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19rem;
+  position: relative;
+}
+
+@media (max-width: 577px) {
+  .banner-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 7rem;*/
+    /*top: -10%;*/
+    background: none!important;
+  }
+}
+

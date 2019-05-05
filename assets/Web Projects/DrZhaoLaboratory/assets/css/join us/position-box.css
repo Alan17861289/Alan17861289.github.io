@@ -1,0 +1,43 @@
+///////////////////////fonts////////////////////////// {
+}
+
+#join-us .description {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  font-style: normal;
+  color: rgba(0,0,0,0.7);
+}
+
+#join-us h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: rgba(0,0,0,0.6);
+}
+
+#join-us .title {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ff2700;
+  margin-bottom: 4px;
+}
+
+#join-us .period {
+  font-family: roboto;
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #666666;
+  margin-bottom: 0.1rem;
+}
+
+#join-us .reference {
+  font-family: roboto;
+  font-size: 0.925rem;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(0,0,0,0.55);
+}
+

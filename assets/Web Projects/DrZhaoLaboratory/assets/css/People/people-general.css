@@ -1,0 +1,60 @@
+#people body {
+  background: rgb(255, 229, 229);
+}
+
+#people h2 {
+  font-family: roboto;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 0.1rem;
+}
+
+#people .title {
+  font-family: roboto;
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #666666;
+  margin-bottom: 0.1rem;
+}
+
+.additional-info {
+  font-family: roboto;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+  line-height: 1.2rem;
+}
+
+#people .divide {
+  margin-top: 1.3rem;
+}
+
+.email {
+  font-family: roboto;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+  margin-bottom: 0.3rem;
+}
+
+#people .image-info {
+  font-family: roboto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0,0,0,0.7);
+  line-height: 24px;
+}
+
+#people .subtitle {
+  font-family: roboto;
+  font-size: 0.925rem;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(0,0,0,0.55);
+}
+
