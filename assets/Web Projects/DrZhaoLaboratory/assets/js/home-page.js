@@ -22,14 +22,12 @@ var sceneChangeBg = new ScrollMagic.Scene({
 		triggerElement: ('#research-areas-heading'),
 	})
 .on('enter', function(){
-        $body.css('background-color', 'rgb(255, 229, 229)' )
+        $body.css('background-color', '#F0EEEE' )
 })
 .on('leave', function(){
         $body.css('background-color', '#F0EEEE' )
 })
 .setClassToggle('#research-areas-heading', 'changeTextColor')
-// .addIndicators({
-//     name: 'body color change'
-// })
+
 .addTo(controller);
 
