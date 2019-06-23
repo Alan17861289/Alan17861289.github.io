@@ -8,7 +8,7 @@
 #research h2 {
   font-family: roboto;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   margin-bottom: 20px;
 }
@@ -24,16 +24,16 @@
 }
 
 .underline {
-  border-bottom: 3px solid #c4c3c3;
+  /*border-bottom: 3px solid #c4c3c3;*/
 }
 
 #research .main-text {
   font-family: roboto;
-  font-size: 1.1rem;
+  font-size: 1.04rem;
   font-weight: 400;
   font-style: normal;
-  color: rgba(0,0,0,0.82);
-  line-height: 24px;
+  color: rgb(51,51,51);
+  line-height: 1.63;
   /*text-align: justify;*/
 }
 
@@ -43,19 +43,37 @@
     font-size: 1rem;
     font-weight: 400;
     font-style: normal;
-    color: rgba(0,0,0,0.82);
+    color: rgb(51,51,51);
     line-height: 24px;
     text-align: justify;
   }
 }
 
+/* research image */
+
+.researchImage {
+  margin-top: 10px;
+}
+
+.imageTitle {
+  font-family: roboto;
+  font-size: 0.77rem;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 0.3rem;
+  line-height: 1.2rem;
+  color: #666;
+}
+
 #research .img-info {
   font-family: roboto;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   font-style: normal;
   margin-top: 0.3rem;
   line-height: 1.2rem;
+  color: rgb(92,92,92);
+  margin-top: -5px;
 }
 
 @media (max-width: 577px) {

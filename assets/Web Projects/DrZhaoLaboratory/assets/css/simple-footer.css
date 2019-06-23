@@ -24,8 +24,9 @@
 }
 
 .footer-2 {
-  background-color: white;
-  color: #FF0022;
+  background-color: rgb(102,102,102);
+  /*color: #FF0022;*/
+  color: #ffffff;
   /*width: 100%;*/
 }
 

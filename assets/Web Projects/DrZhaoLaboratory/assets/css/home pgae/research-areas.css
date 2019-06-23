@@ -1,3 +1,5 @@
+/* research areas */
+
 .item {
   box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
 }
@@ -14,7 +16,7 @@
   overflow: hidden;
   position: relative;
   color: #000000;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   background-color: #ffffff;
   border-radius: 0px 0px 10px 0px;
@@ -28,9 +30,9 @@
   /*outline: none;*/
   overflow: hidden;
   position: relative;
-  color: #000000;
-  font-weight: 700;
-  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  /*font-size: 15px;*/
   background-color: #ffffff;
 }
 
@@ -107,7 +109,7 @@
 }
 
 .item a {
-  color: #000;
+  color: #333;
   /*font-size: 25px;*/
   text-decoration: none;
 }
@@ -123,7 +125,7 @@
 }
 
 #research-areas a:visited {
-  /*color: black;*/
+  color: #333;
 }
 
 #research-areas {
@@ -161,7 +163,7 @@
 }
 
 .changeTextColor {
-  color: white !important;
+  color: #4e4d4d !important;
   transition: 1s;
 }
 

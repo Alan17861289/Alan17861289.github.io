@@ -1,6 +1,6 @@
 /* ///////////card container///////////// */
 
-@media (max-width: 1200px) {
+@media (max-width: 1198px) {
   #people section .container {
     max-width: 500px;
   }
@@ -59,22 +59,24 @@
 }
 
 #principle-investigator-background {
-  background-image: url("../../../assets/img/professor.jpg");
+  /*background-image: url("../../../assets/img/professor.jpg");*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   #people .card-image {
-    background-image: none;
+    /*background-image: none;*/
+    width: 461.656px;
+    height: 362.375px;
   }
 }
 
 @media (min-width: 1200px) {
   #people .card img {
-    display: none;
-    max-width: 86px;
+    /*display: none;*/
+    /*max-width: 86px;*/
   }
 }
 

@@ -1,5 +1,5 @@
 $('#sub-nav-button1').on('click', function(){
-    $('body').css('background', 'rgb(255, 229, 229)');
+    $('body').css('background', '#F0EEEE');
 })
 
 $('#sub-nav-button2').on('click', function(){

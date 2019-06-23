@@ -22,7 +22,7 @@ var sceneChangeBg = new ScrollMagic.Scene({
 		triggerElement: ('#research-areas-heading'),
 	})
 .on('enter', function(){
-        $body.css('background-color', '#FF9494' )
+        $body.css('background-color', 'rgb(255, 229, 229)' )
 })
 .on('leave', function(){
         $body.css('background-color', '#F0EEEE' )

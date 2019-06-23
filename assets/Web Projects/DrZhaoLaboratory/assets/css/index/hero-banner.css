@@ -3,10 +3,10 @@
 }
 
 .hero-banner {
-  background-image: url("../../../assets/img/cell-animation3.svg"),url("../../../assets/img/banner1.jpg");
-  height: 20rem;
+  background-image: url("../../../assets/img/cell-animation3.svg"),url("../../../assets/img/research-banner.jpg");
+  height: 17.5rem;
   background-position: left, center;
-  background-size: 700px, cover;
+  background-size: 45%, cover;
   background-repeat: no-repeat, no-repeat;
   padding-top: 75px;
   display: flex;
@@ -15,6 +15,16 @@
   position: relative;
   z-index: 1;
 }
+
+/* research banner */
+
+@media (min-width: 768px) {
+  #research-banner {
+    /*background-image: url("../../../assets/img/cell-animation3.svg"),url("../../../assets/img/research-banner.jpg");*/
+  }
+}
+
+/* others */
 
 @media (max-width: 768px) {
   .hero-banner {

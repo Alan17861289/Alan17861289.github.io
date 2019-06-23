@@ -63,7 +63,7 @@ p {
   .navbar-expand-md .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
-    display: none;
+    /*display: none;*/
   }
 }
 

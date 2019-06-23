@@ -1,6 +1,6 @@
 #news body {
   /*background-image: linear-gradient(to left bottom, #ffa2a2, #ffcdcd, #ffd2d1, #ffb9b8, #ffd6d6);*/
-  background: rgb(255, 229, 229);
+  background: #F0EEEE;
   display: flex;
   min-height: 100%;
   flex-direction: column;
